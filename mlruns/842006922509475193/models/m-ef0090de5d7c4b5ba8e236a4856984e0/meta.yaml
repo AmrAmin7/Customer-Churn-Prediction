@@ -1,0 +1,10 @@
+artifact_location: file:D:\DEPI.MachineLearning\Customer-Churn-Prediction\mlruns/842006922509475193/models/m-ef0090de5d7c4b5ba8e236a4856984e0/artifacts
+creation_timestamp: 1778867956835
+experiment_id: '842006922509475193'
+last_updated_timestamp: 1778867960867
+model_id: m-ef0090de5d7c4b5ba8e236a4856984e0
+model_type: null
+name: xgboost_model
+source_run_id: 1affd49cb19d40fdb47f2610f572bb1c
+status: 2
+status_message: null

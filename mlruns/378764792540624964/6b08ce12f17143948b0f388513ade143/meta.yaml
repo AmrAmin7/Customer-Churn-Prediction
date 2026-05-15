@@ -1,0 +1,14 @@
+artifact_uri: file:D:\DEPI.MachineLearning\Customer-Churn-Prediction\mlruns/378764792540624964/6b08ce12f17143948b0f388513ade143/artifacts
+end_time: 1778867551288
+entry_point_name: ''
+experiment_id: '378764792540624964'
+lifecycle_stage: active
+run_id: 6b08ce12f17143948b0f388513ade143
+run_name: random_forest_baseline
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1778867532327
+status: 3
+tags: []
+user_id: rocke

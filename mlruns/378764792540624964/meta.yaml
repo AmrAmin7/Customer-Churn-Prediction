@@ -1,0 +1,8 @@
+artifact_location: file:D:\DEPI.MachineLearning\Customer-Churn-Prediction\mlruns/378764792540624964
+creation_time: 1778867531396
+experiment_id: '378764792540624964'
+last_update_time: 1778867531396
+lifecycle_stage: active
+name: customer_churn_prediction
+trace_location: null
+workspace: default

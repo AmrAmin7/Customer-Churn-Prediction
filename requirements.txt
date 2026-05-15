@@ -1,0 +1,58 @@
+# =============================================
+# Core data processing & analysis
+# =============================================
+pandas>=2.2.0                  # Data manipulation and DataFrames
+numpy>=1.26.0                  # Numerical computations
+scipy>=1.14.0                  # Statistical functions (used in drift tests)
+
+# =============================================
+# Visualization (EDA in notebooks + figures)
+# =============================================
+matplotlib>=3.9.0              # Static plots
+seaborn>=0.13.0                # Enhanced statistical visualizations
+
+# =============================================
+# Machine Learning & modeling
+# =============================================
+scikit-learn>=1.5.0            # Classical ML algorithms, preprocessing, metrics
+xgboost>=2.1.0                 # High-performance gradient boosting (strong for churn)
+imbalanced-learn>=0.12.0       # Handling class imbalance (SMOTE, etc.)
+
+# =============================================
+# Data & concept drift detection & monitoring
+# =============================================
+evidently>=0.4.0               # Comprehensive drift reports, dashboards, monitoring
+# Alternative / complementary (uncomment if needed):
+# alibi-detect>=0.12.0         # Advanced statistical + ML-based drift detectors
+
+# =============================================
+# Dashboard & interactive prototypes
+# =============================================
+streamlit>=1.40.0              # Fast dashboard & app prototyping (recommended starting point)
+# Alternative (uncomment if you prefer more control):
+# dash>=2.18.0                 # Plotly-based, more customizable dashboards
+# plotly>=5.24.0               # Interactive charts (required by Dash or standalone)
+
+# =============================================
+# Jupyter & notebook environment
+# =============================================
+jupyter>=1.0.0                 # Jupyter ecosystem
+notebook>=7.0.0                # Classic notebook interface
+ipywidgets>=8.1.0              # Interactive widgets in notebooks
+
+# =============================================
+# Model serving & API (for production later)
+# =============================================
+fastapi>=0.115.0               # Modern, high-performance API framework
+uvicorn>=0.30.0                # ASGI server for FastAPI
+
+# =============================================
+# Utilities & environment management
+# =============================================
+pyyaml>=6.0.0                  # For reading config.yaml
+joblib>=1.4.0                  # Efficient model serialization
+skops>=0.14.0              # Safe scikit-learn model serialization (recommended over pickle)
+tqdm>=4.66.0                   # Progress bars during training/processing
+mlflow-skinny
+plotly
+shap

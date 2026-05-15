@@ -1,0 +1,10 @@
+artifact_location: file:D:\DEPI.MachineLearning\Customer-Churn-Prediction\mlruns/842006922509475193/models/m-e104c97965fe4bf5b784d28461acec4a/artifacts
+creation_timestamp: 1778867632061
+experiment_id: '842006922509475193'
+last_updated_timestamp: 1778867636832
+model_id: m-e104c97965fe4bf5b784d28461acec4a
+model_type: null
+name: random_forest_model
+source_run_id: 54703870b69548d0a5dcc1b0af06b513
+status: 2
+status_message: null
