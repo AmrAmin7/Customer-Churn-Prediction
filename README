@@ -1,0 +1,158 @@
+# Customer Churn Prediction & Automated Retraining System
+
+Predict customer churn using machine learning, monitor data drift, and support continuous model improvement through automated retraining workflows.
+
+---
+
+## Project Overview
+
+This project builds an end-to-end customer churn prediction pipeline that:
+
+- Processes customer behavior and service usage data
+- Predicts churn risk using machine learning models
+- Tracks experiments and model performance
+- Performs explainability analysis
+- Supports automated retraining when model drift occurs
+- Prepares deployment-ready model artifacts for cloud integration
+
+---
+
+## Project Structure
+
+```text
+Customer-Churn-Prediction/
+├── azure_package/
+│   └── churn-model/
+│       ├── churn_model.pkl
+│       ├── scaler.pkl
+│       └── feature_columns.pkl
+│
+├── data/
+│   ├── telco-customer-churn.csv
+│   └── processed_data.csv
+│
+├── mlruns/
+│
+├── notebooks/
+│   ├── 01_Data_Preprocessing.ipynb
+│   ├── 02_EDA.ipynb
+│   ├── 03_Model_Development.ipynb
+│   ├── 04_Hyperparameter.ipynb
+│   └── 05_Model_Explainability.ipynb
+│
+├── utils/
+│   ├── helpers.py
+│   └── config.py
+│
+└── requirements.txt
+Workflow
+1. Data Preprocessing
+Load raw customer data
+Handle missing values
+Encode categorical variables
+Scale numerical features
+Save processed dataset
+
+Output:
+
+processed_data.csv
+2. Exploratory Data Analysis
+
+Analyze:
+
+Churn distribution
+Customer tenure
+Monthly charges
+Contract types
+Feature relationships
+
+Includes:
+
+correlation analysis
+business insights
+imbalance detection
+3. Model Development
+
+Train and compare models:
+
+Random Forest
+Gradient Boosting
+XGBoost
+
+Evaluate using:
+
+Accuracy
+Precision
+Recall
+F1 Score
+ROC-AUC
+Confusion Matrix
+4. Hyperparameter Optimization
+
+Improve best-performing model using:
+
+Grid Search
+Cross Validation
+Threshold tuning
+
+Artifacts saved:
+
+churn_model.pkl
+scaler.pkl
+feature_columns.pkl
+5. Model Explainability
+
+Explain predictions using SHAP:
+
+Feature importance
+Global explainability
+Local customer-level explainability
+Tools & Technologies
+Machine Learning
+Python
+pandas
+numpy
+scikit-learn
+xgboost
+Experiment Tracking
+MLflow
+Explainability
+SHAP
+Cloud Packaging
+Azure Machine Learning
+Installation
+
+Clone repository:
+
+git clone https://github.com/yourusername/Customer-Churn-Prediction.git
+cd Customer-Churn-Prediction
+
+Install dependencies:
+
+pip install -r requirements.txt
+Run Project
+
+Start notebooks in order:
+
+01_Data_Preprocessing.ipynb
+02_EDA.ipynb
+03_Model_Development.ipynb
+04_Hyperparameter.ipynb
+05_Model_Explainability.ipynb
+Key Features
+
+✔ Customer churn prediction
+✔ Feature engineering
+✔ Experiment tracking
+✔ Hyperparameter tuning
+✔ Explainable AI
+✔ Model packaging
+✔ Automated retraining foundation
+
+Future Enhancements
+Real-time inference API
+Streamlit dashboard
+Drift monitoring
+Scheduled retraining
+CI/CD integration
+Azure deployment pipeline
