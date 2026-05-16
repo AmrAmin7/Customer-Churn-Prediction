@@ -1,7 +1,6 @@
 # Customer Churn Prediction & Automated Retraining System
 
 Predict customer churn using machine learning, monitor data drift, and support continuous model improvement through automated retraining workflows.
-
 ---
 
 ## Project Overview
@@ -14,7 +13,6 @@ This project builds an end-to-end customer churn prediction pipeline that:
 - Performs explainability analysis
 - Supports automated retraining when model drift occurs
 - Prepares deployment-ready model artifacts for cloud integration
-
 ---
 
 ## Project Structure
@@ -45,6 +43,7 @@ Customer-Churn-Prediction/
 │   └── config.py
 │
 └── requirements.txt
+
 Workflow
 1. Data Preprocessing
 Load raw customer data
@@ -56,6 +55,7 @@ Save processed dataset
 Output:
 
 processed_data.csv
+
 2. Exploratory Data Analysis
 
 Analyze:
@@ -71,12 +71,12 @@ Includes:
 correlation analysis
 business insights
 imbalance detection
+
 3. Model Development
 
 Train and compare models:
 
 Random Forest
-Gradient Boosting
 XGBoost
 
 Evaluate using:
@@ -87,6 +87,7 @@ Recall
 F1 Score
 ROC-AUC
 Confusion Matrix
+
 4. Hyperparameter Optimization
 
 Improve best-performing model using:
@@ -100,6 +101,7 @@ Artifacts saved:
 churn_model.pkl
 scaler.pkl
 feature_columns.pkl
+
 5. Model Explainability
 
 Explain predictions using SHAP:
@@ -139,6 +141,7 @@ Start notebooks in order:
 03_Model_Development.ipynb
 04_Hyperparameter.ipynb
 05_Model_Explainability.ipynb
+
 Key Features
 
 ✔ Customer churn prediction
